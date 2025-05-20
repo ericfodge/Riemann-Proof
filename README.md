@@ -6,4 +6,4 @@
 
 ## 📘 PDF README Summary
 
-[Click to view the visual README](./README.pdf)
+[Click to view the visual README](./READ ME.pdf)
