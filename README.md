@@ -2,7 +2,7 @@
 
 ## 📄 Manuscript (Full Paper)
 
-[Click to view the manuscript](./riemann_proof_7_02.pdf)
+[Click to view the manuscript](./riemann_proof_702.pdf)
 
 ## 📘 PDF README Summary
 
