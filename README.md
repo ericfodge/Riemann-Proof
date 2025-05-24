@@ -2,7 +2,7 @@
 
 ## 📄 Manuscript (Full Paper)
 
-[Click to view the manuscript](./1.pdf)
+[Click to view the manuscript](./3.pdf)
 
 ## 📘 PDF README Summary
 
@@ -10,5 +10,5 @@
 
 ## 📘 PDF New laws dictating structure of riemann
 
-[Click to view the visual README](./2.pdf)
+[Click to view the visual README](./4.pdf)
 
