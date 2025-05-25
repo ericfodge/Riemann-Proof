@@ -12,3 +12,7 @@
 
 [Click to view the visual README](./4.pdf)
 
+## 📘 PDF New laws dictating structure of riemann
+
+[Click to view the visual README](./4.pdf)
+
