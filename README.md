@@ -14,5 +14,5 @@
 
 ## 📘 PDF New laws dictating structure of riemann
 
-[Click to view the visual README](./4.pdf)
+[Click to view the visual README](./fixed_symbolic_oscillator.pdf)
 
