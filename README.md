@@ -12,7 +12,7 @@
 
 [Click to view the visual README](./4.pdf)
 
-## 📘 PDF New laws dictating structure of riemann
+## 📘 symbolic oscillator system
 
 [Click to view the visual README](./fixed_symbolic_oscillator.pdf)
 
