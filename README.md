@@ -16,3 +16,6 @@
 
 [Click to view the visual README](./fixed_symbolic_oscillator.pdf)
 
+## 📘 My Model vs Hardy
+
+[Click to view the visual README](./me_vs_hardy.pdf)
