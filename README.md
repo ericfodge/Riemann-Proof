@@ -20,6 +20,6 @@
 
 [Click to view the visual README](./me_vs_hardy.pdf)
 
-## 📘 My Model vs Hardy
+## 📘 Reconstructng Prime Distribution from the Corrected Phase Oscillator
 
 [Click to view the visual README](./reconstructing_prime_distribution.pdf)
