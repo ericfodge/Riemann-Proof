@@ -23,3 +23,8 @@
 ## 📘 Reconstructng Prime Distribution from the Corrected Phase Oscillator
 
 [Click to view the visual README](./reconstructing_prime_distribution.pdf)
+
+## 📘 A Corrected Phase Model for the Riemann Zeta Function: ϑ(t) and
+Symbolic Structure on the Critical Line
+
+[Click to view the visual README](./vartheta.pdf)
