@@ -19,3 +19,7 @@
 ## 📘 My Model vs Hardy
 
 [Click to view the visual README](./me_vs_hardy.pdf)
+
+## 📘 My Model vs Hardy
+
+[Click to view the visual README](./reconstructing_prime_distribution.pdf)
