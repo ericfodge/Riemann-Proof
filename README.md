@@ -28,3 +28,8 @@
 Symbolic Structure on the Critical Line
 
 [Click to view the visual README](./vartheta.pdf)
+
+
+## 📘 Full Proof of Riemann Hypothesis
+
+[Click to view the visual README](./riemannproof4.pdf)
