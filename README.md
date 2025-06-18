@@ -32,4 +32,4 @@ Symbolic Structure on the Critical Line
 
 ## 📘 Full Proof of Riemann Hypothesis
 
-[Click to view the visual README](./riemannproof16.pdf)
+[Click to view the visual README](./riemannproof23.pdf)
