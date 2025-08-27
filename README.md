@@ -3,4 +3,4 @@
 
 ## 📘 Full Proof of Riemann Hypothesis
 
-[Click to view the visual README](./riemannproof114.pdf)
+[Click to view the visual README](./riemannproof124.pdf)
