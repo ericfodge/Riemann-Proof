@@ -7,4 +7,4 @@
 
 ## 📘 Proof Summary of Riemann Hypothesis
 
-[Click to view the visual README](./rhProofsummary_R150.4.4.pdf)
+[Click to view the visual README](./rhProofsummary.R150.4.4.pdf)
