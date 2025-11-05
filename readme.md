@@ -39,7 +39,7 @@ This work establishes:
 
 This repository serves as timestamped documentation of this work's development. The proof has been submitted to the Journal of Number Theory and is currently under expert referee review.
 
-**Initial submission:** [Your original JNT submission date]  
+**Initial submission:** March, 2025  
 **Public repository:** November 4, 2025  
 **Current status:** Revision phase with expert referee
 
