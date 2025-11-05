@@ -12,3 +12,8 @@
 ## 📘 Q2 LEAN VERIFICATION CODE
 
 [Click to view the visual README](./LEANQ2VERIFICATION.lean)
+
+
+## 📘 Read me
+
+[Click to view the visual README](./readme.md)
