@@ -1,0 +1,78 @@
+/-
+  Q² Annihilation Mechanism - FULLY VALIDATED
+-/
+import Mathlib.Analysis.SpecialFunctions.Pow.Real
+
+open Real
+
+noncomputable section
+
+structure Params where
+  T : ℝ
+  ν : ℝ
+  ε : ℝ
+  r : ℕ
+  hT_pos : 0 < T
+  hT_gt_one : 1 < T
+  hν : ν = 1/5
+  hε : ε = 1/50
+  hr : r = 2
+
+def Q (p : Params) : ℝ := p.T ^ (1/2 - p.ν)
+def H_over_N (p : Params) : ℝ := p.T ^ (-1 + p.ε)
+
+theorem Q_squared_exponent (p : Params) :
+    (Q p)^2 = p.T ^ (1 - 2*p.ν) := by
+  unfold Q
+  rw [← rpow_natCast, ← rpow_mul (le_of_lt p.hT_pos)]
+  ring_nf
+
+theorem HN_fourth_exponent (p : Params) :
+    (H_over_N p)^4 = p.T ^ (-4*(1 - p.ε)) := by
+  unfold H_over_N
+  rw [← rpow_natCast, ← rpow_mul (le_of_lt p.hT_pos)]
+  ring_nf
+
+theorem product_exponent (p : Params) :
+    (Q p)^2 * (H_over_N p)^4 = p.T ^ ((1 - 2*p.ν) - 4*(1 - p.ε)) := by
+  rw [Q_squared_exponent, HN_fourth_exponent, ← rpow_add p.hT_pos]
+  ring_nf
+
+theorem concrete_exponent (p : Params) :
+    (1 - 2*p.ν) - 4*(1 - p.ε) = -(83/25) := by
+  rw [p.hν, p.hε]
+  norm_num
+
+theorem Q2_annihilation (p : Params) :
+    (Q p)^2 * (H_over_N p)^4 = p.T ^ (-(83/25 : ℝ)) := by
+  rw [product_exponent, concrete_exponent]
+
+theorem exponent_negative : -(83 : ℝ) / 25 < 0 := by norm_num
+
+theorem Q2_dominated (p : Params) :
+    ∃ δ : ℝ, δ > 0 ∧ (Q p)^2 * (H_over_N p)^4 = p.T ^ (-δ) := by
+  use (83/25 : ℝ)
+  exact ⟨by norm_num, Q2_annihilation p⟩
+
+def delta : ℝ := 83/25
+
+theorem delta_positive : 0 < delta := by
+  unfold delta
+  norm_num
+
+theorem Q2_dominated_constructive (p : Params) :
+    0 < delta ∧ (Q p)^2 * (H_over_N p)^4 = p.T ^ (-delta) := by
+  constructor
+  · exact delta_positive
+  · exact Q2_annihilation p
+
+#check Q2_dominated
+#check Q2_annihilation
+#check Q2_dominated_constructive
+
+#print axioms Q2_annihilation
+#print axioms Q2_dominated
+#print axioms Q2_dominated_constructive
+#print axioms delta_positive
+
+end
