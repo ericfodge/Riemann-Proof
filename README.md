@@ -11,4 +11,4 @@
 
 ## 📘 Q2 LEAN VERIFICATION CODE
 
-[Click to view the visual README](./LEANQ2VERIFICATION.txt)
+[Click to view the visual README](./LEANQ2VERIFICATION.lean)
