@@ -1,4 +1,4 @@
-# Proof of the Riemann Hypothesis via Q² Annihilation
+# Proof of the Riemann Hypothesis via Short-Interval Dispersion Method
 
 **Author:** Eric Fodge  
 **Repository Created:** November 2025  
