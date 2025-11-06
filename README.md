@@ -7,7 +7,7 @@
 
 ## 📘 Proof Summary of Riemann Hypothesis
 
-[Click to view the visual README](./rhProofsummary_R150_4_4.pdf)
+[Click to view the visual README](./riemannProofsummary_R150_4_4.pdf)
 
 ## 📘 Q2 LEAN VERIFICATION CODE
 
