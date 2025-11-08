@@ -3,7 +3,7 @@
 
 ## 📘 Full Proof of Riemann Hypothesis
 
-[Click to view the visual README](./riemannproof_R151_4_5.pdf)
+[Click to view the visual README](./riemannproof_R152_4_6.pdf)
 
 ## 📘 Proof Summary of Riemann Hypothesis
 
