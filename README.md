@@ -3,7 +3,7 @@
 
 ## 📘 Full Proof of Riemann Hypothesis
 
-[Click to view the visual README](./riemannproof_R161_5_5.pdf)
+[Click to view the visual README](./riemannproof_R162_5_6.pdf)
 
 
 ## 📘 Q2 LEAN VERIFICATION CODE
